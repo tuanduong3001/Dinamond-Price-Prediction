@@ -31,3 +31,15 @@ The first column is an index ("Unnamed: 0") and thus we are going to remove it.
 Min value of "x", "y", "z" are zero this indicates that there are faulty values in data that represents dimensionless or 2-dimensional diamonds. So we need to filter out those as it clearly faulty data points.
 
 ![image](https://user-images.githubusercontent.com/56602084/177604929-6761e264-30d4-422d-97f6-9edc17a835bd.png)
+
+We lost 20 data points by deleting the dimensionless(2-D or 1-D) diamonds.
+
+**Checking for null values**
+
+![image](https://user-images.githubusercontent.com/56602084/177605525-716e6502-e1df-436d-8f93-59c5b45a4959.png)
+
+we can see that the data is  cleaned
+
+# The rest of this project you can see in the linked jupyter notebook file
+
+
